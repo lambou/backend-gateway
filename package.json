@@ -1,6 +1,6 @@
 {
   "name": "backend-gateway",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Front-end helpers to communicate with APIs, based on Axios",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
