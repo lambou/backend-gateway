@@ -1,7 +1,7 @@
 # Backend Gateway
 Front-end helper to communicate with APIs, based on [Axios]([github.com/axios/axios](https://github.com/axios/axios))
 
-#### Installation
+### Installation
 
 Npm
 
@@ -17,7 +17,7 @@ yarn install backend-gateway
 
 
 
-#### Initialize the gateway
+### Initialize the gateway
 
 To start a communication with the API we need to define the `base url`. 
 
@@ -41,7 +41,7 @@ Backend.init({
 
 
 
-#### Access Token
+### Access Token
 
 In almost all APIs, some functionality is protected and requires an `access token` to consume it. Anywhere in the code you can use the following method to globally modify the HTTP request headers.
 
@@ -63,7 +63,7 @@ Backend.updateHeaders({
 
 
 
-#### Make a request
+### Make a request
 
 > The Backend class implements the **singleton pattern**. To get an instance and make a request use its static method `getInstance`.
 
@@ -109,7 +109,7 @@ Notes:
 
 
 
-**## License**
+## License
 
 
 
