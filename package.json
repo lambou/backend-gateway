@@ -1,0 +1,39 @@
+{
+  "name": "backend-gateway",
+  "version": "0.0.0",
+  "description": "Front-end helpers to communicate with APIs, based on Axios",
+  "main": "index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lambou/backend-gateway.git"
+  },
+  "keywords": [
+    "api",
+    "backend",
+    "consume"
+  ],
+  "author": "Arnold L.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lambou/backend-gateway/issues"
+  },
+  "homepage": "https://github.com/lambou/backend-gateway#readme",
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "typescript": "^4.5.4"
+  },
+  "peerDependencies": {
+    "@noreajs/common": "^1.1.4",
+    "axios": "^0.24.0",
+    "moment": "^2.29.1"
+  }
+}
