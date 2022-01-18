@@ -78,7 +78,7 @@ Backend.getInstance().call({
         url: "/user", // the Base url has already been configured
     },
     beforeStart: () => {
-		// before start logic
+        // before start logic
         // example: start loading
     },
     successCallback: (response) => {

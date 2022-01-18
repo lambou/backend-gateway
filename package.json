@@ -2,7 +2,8 @@
   "name": "backend-gateway",
   "version": "0.0.1",
   "description": "Front-end helpers to communicate with APIs, based on Axios",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist",
     "README.md"
